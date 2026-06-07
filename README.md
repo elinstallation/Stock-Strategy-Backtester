@@ -1,7 +1,10 @@
+
 # Stock Strategy Backtester
 
 A Python tool that backtests two trading strategies — SMA Crossover and Bollinger Bands — against a Buy and Hold benchmark across S&P 500 stocks, with an interactive Plotly dashboard to visualise the results.
 
+---
+https://github.com/user-attachments/assets/0ff765f0-6bfc-4fe9-8ccc-97448759b295
 ---
 
 ## Strategies
