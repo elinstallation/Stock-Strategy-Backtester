@@ -6,7 +6,7 @@ A Python tool that backtests two trading strategies — SMA Crossover and Bollin
 ---
 ## Demo 
 https://github.com/user-attachments/assets/0ff765f0-6bfc-4fe9-8ccc-97448759b295
----
+
 
 ## Strategies
 
