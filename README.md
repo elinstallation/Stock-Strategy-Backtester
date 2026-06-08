@@ -1,7 +1,7 @@
 
 # Stock Strategy Backtester
 
-A Python tool that backtests two trading strategies — SMA Crossover and Bollinger Bands — against a Buy and Hold benchmark across S&P 500 stocks, with an interactive Plotly dashboard to visualise the results.
+A Python tool that backtests two trading strategies — SMA Crossover and Mean Reversion (Bollinger Bands) — against a Buy and Hold benchmark across S&P 500 stocks, with an interactive Plotly dashboard to visualise the results.
 
 ---
 ## Demo 
@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/0ff765f0-6bfc-4fe9-8ccc-97448759b295
 
 **SMA Crossover** — generates a buy signal when the 5-day moving average crosses above the 20-day moving average, and a sell signal when it crosses below.
 
-**Bollinger Bands** — generates a buy signal when price drops below the lower band (2 standard deviations below the 20-day SMA) and a sell signal when price rises above the upper band.
+**Mean Reversion (Bollinger Bands)** — generates a buy signal when price drops below the lower band (2 standard deviations below the 20-day SMA) and a sell signal when price rises above the upper band.
 
 ---
 
