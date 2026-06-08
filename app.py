@@ -17,9 +17,9 @@ fig = go.Figure()
 for ticker in tickers:
     stock_data = df[df["Name"] == ticker]
     
-    fig.add_trace(go.Scatter(x=stock_data.index, y=stock_data['Buy and Hold'], name='Buy and Hold', visible=False))
-    fig.add_trace(go.Scatter(x=stock_data.index, y=stock_data['SMA returns'], name='SMA returns', visible=False))
-    fig.add_trace(go.Scatter(x=stock_data.index, y=stock_data['Bollinger Bands returns'], name='Bollinger Bands returns', visible=False))
+    fig.add_trace(go.Scatter(x=stock_data['date'], y=stock_data['Buy and Hold'], name='Buy and Hold', visible=False))
+    fig.add_trace(go.Scatter(x=stock_data['date'], y=stock_data['SMA returns'], name='SMA returns', visible=False))
+    fig.add_trace(go.Scatter(x=stock_data['date'], y=stock_data['Bollinger Bands returns'], name='Bollinger Bands returns', visible=False))
 
 
 
